@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		721148CD2341D30F00DAAD6F /* testone.h in Headers */ = {isa = PBXBuildFile; fileRef = 721148CB2341D30F00DAAD6F /* testone.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721148D52341D6E000DAAD6F /* one.h in Headers */ = {isa = PBXBuildFile; fileRef = 721148D32341D6E000DAAD6F /* one.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721148D62341D6E000DAAD6F /* one.m in Sources */ = {isa = PBXBuildFile; fileRef = 721148D42341D6E000DAAD6F /* one.m */; };
+		721148D92341D6E800DAAD6F /* two.h in Headers */ = {isa = PBXBuildFile; fileRef = 721148D72341D6E800DAAD6F /* two.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		721148DA2341D6E800DAAD6F /* two.m in Sources */ = {isa = PBXBuildFile; fileRef = 721148D82341D6E800DAAD6F /* two.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		721148C82341D30F00DAAD6F /* testone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = testone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		721148CB2341D30F00DAAD6F /* testone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testone.h; sourceTree = "<group>"; };
 		721148CC2341D30F00DAAD6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		721148D32341D6E000DAAD6F /* one.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = one.h; sourceTree = "<group>"; };
+		721148D42341D6E000DAAD6F /* one.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = one.m; sourceTree = "<group>"; };
+		721148D72341D6E800DAAD6F /* two.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = two.h; sourceTree = "<group>"; };
+		721148D82341D6E800DAAD6F /* two.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = two.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +52,11 @@
 		721148CA2341D30F00DAAD6F /* testone */ = {
 			isa = PBXGroup;
 			children = (
-				721148CB2341D30F00DAAD6F /* testone.h */,
 				721148CC2341D30F00DAAD6F /* Info.plist */,
+				721148D32341D6E000DAAD6F /* one.h */,
+				721148D42341D6E000DAAD6F /* one.m */,
+				721148D72341D6E800DAAD6F /* two.h */,
+				721148D82341D6E800DAAD6F /* two.m */,
 			);
 			path = testone;
 			sourceTree = "<group>";
@@ -59,7 +68,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				721148CD2341D30F00DAAD6F /* testone.h in Headers */,
+				721148D52341D6E000DAAD6F /* one.h in Headers */,
+				721148D92341D6E800DAAD6F /* two.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				721148DA2341D6E800DAAD6F /* two.m in Sources */,
+				721148D62341D6E000DAAD6F /* one.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
